@@ -10,5 +10,5 @@
       action:
         run_job_template:
           name: hello
-          organization: default
+          organization: Default
           
