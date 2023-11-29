@@ -1,0 +1,10 @@
+---
+- name: Say Hello
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Hello
+      debug:
+        msg:
+          "Hello from triggered Job"
+
